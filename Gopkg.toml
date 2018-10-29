@@ -2,6 +2,10 @@
   name = "github.com/gobuffalo/buffalo"
   branch = "development"
 
+[[constraint]]
+  name = "github.com/gobuffalo/packr"
+  version = "=v2.0.0-beta.14"
+
 [prune]
   go-tests = true
   unused-packages = true

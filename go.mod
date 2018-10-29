@@ -21,15 +21,17 @@ require (
 	github.com/glycerine/go-unsnap-stream v0.0.0-20180323001048-9f0cb55181dd // indirect
 	github.com/glycerine/goconvey v0.0.0-20180728074245-46e3a41ad493 // indirect
 	github.com/gobuffalo/buffalo v0.13.0-rc.1.0.20181003204013-e1b0d91cd9b2
-	github.com/gobuffalo/envy v1.6.4
+	github.com/gobuffalo/envy v1.6.6
 	github.com/gobuffalo/events v1.0.3
-	github.com/gobuffalo/genny v0.0.0-20181003150629-3786a0744c5d
+	github.com/gobuffalo/genny v0.0.0-20181026155221-2169236ba2b4
 	github.com/gobuffalo/github_flavored_markdown v1.0.5
 	github.com/gobuffalo/mw-forcessl v0.0.0-20180802152810-73921ae7a130
 	github.com/gobuffalo/mw-i18n v0.0.0-20180802152014-e3060b7e13d6
 	github.com/gobuffalo/mw-paramlogger v0.0.0-20180917205648-9e0d9b7760c0
 	github.com/gobuffalo/packr v1.13.7
-	github.com/gobuffalo/plush v3.7.16+incompatible
+	github.com/gobuffalo/packr/v2 v2.0.0-beta.1
+	github.com/gobuffalo/plush v3.7.21+incompatible
+	github.com/gobuffalo/pop v4.8.2+incompatible
 	github.com/gobuffalo/tags v2.0.11+incompatible
 	github.com/gobuffalo/x v0.0.0-20181003152136-452098b06085
 	github.com/golang/gddo v0.0.0-20180911175731-8b031907f29f
@@ -39,9 +41,11 @@ require (
 	github.com/grokify/html-strip-tags-go v0.0.0-20180907063347-e9e44961e26f
 	github.com/jmhodges/levigo v0.0.0-20161115193449-c42d9e0ca023 // indirect
 	github.com/jtolds/gls v4.2.1+incompatible // indirect
+	github.com/kr/pty v1.1.3 // indirect
 	github.com/markbates/going v1.0.2
-	github.com/markbates/inflect v1.0.1
-	github.com/markbates/oncer v0.0.0-20180924034138-723ad0170a46
+	github.com/markbates/grift v1.0.4
+	github.com/markbates/inflect v1.0.4
+	github.com/markbates/oncer v0.0.0-20181014194634-05fccaae8fc4
 	github.com/markbates/willie v1.0.9
 	github.com/microcosm-cc/bluemonday v1.0.1
 	github.com/mmcdole/gofeed v1.0.0-beta2
@@ -60,4 +64,5 @@ require (
 	github.com/tinylib/msgp v1.0.2 // indirect
 	github.com/unrolled/secure v0.0.0-20180918153822-f340ee86eb8b
 	github.com/willf/bitset v1.1.9 // indirect
+	golang.org/x/sys v0.0.0-20181026203630-95b1ffbd15a5 // indirect
 )

@@ -11,7 +11,7 @@ import (
 	"github.com/gobuffalo/mw-forcessl"
 	"github.com/gobuffalo/mw-i18n"
 	"github.com/gobuffalo/mw-paramlogger"
-	"github.com/gobuffalo/packr"
+	"github.com/gobuffalo/packr/v2"
 	"github.com/gobuffalo/x/sessions"
 	"github.com/unrolled/secure"
 )
@@ -128,7 +128,7 @@ func App() *buffalo.App {
 // for more information: https://gobuffalo.io/en/docs/localization
 func translations() buffalo.MiddlewareFunc {
 	var err error
-	if T, err = i18n.New(packr.NewBox("../locales"), "en"); err != nil {
+	if T, err = i18n.New(packr.New("locales", "../locales"), "en"); err != nil {
 		app.Stop(err)
 	}
 
