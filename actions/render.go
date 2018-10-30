@@ -8,7 +8,9 @@ import (
 	"github.com/gobuffalo/buffalo/render"
 	"github.com/gobuffalo/gobuffalo/actions/helpers"
 	"github.com/gobuffalo/gobuffalo/search/godoc"
+	"github.com/gobuffalo/logger"
 	"github.com/gobuffalo/packr/v2"
+	"github.com/gobuffalo/packr/v2/plog"
 	"github.com/gobuffalo/plush"
 	"github.com/markbates/inflect"
 )
@@ -21,6 +23,7 @@ func Renderer() *render.Engine {
 }
 
 func init() {
+	plog.Default = logger.New(logger.DebugLevel)
 	r = render.New(render.Options{
 		HTMLLayout: "application.html",
 		Helpers: render.Helpers{

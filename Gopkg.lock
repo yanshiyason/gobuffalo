@@ -460,12 +460,12 @@
   revision = "1ef645d63fe8b767ec0945614b08bf40fe57012b"
 
 [[projects]]
-  digest = "1:ce579162ae1341f3e5ab30c0dce767f28b1eb6a81359aad01723f1ba6b4becdf"
+  digest = "1:c594a691090b434d55c67f6cc8e326ef5ba49452abc059821bd5d4fd4cdef08c"
   name = "github.com/gofrs/uuid"
   packages = ["."]
   pruneopts = "UT"
-  revision = "370558f003bfe29580cd0f698d8640daccdcc45c"
-  version = "v3.1.1"
+  revision = "7077aa61129615a0d7f45c49101cd011ab221c27"
+  version = "v3.1.2"
 
 [[projects]]
   branch = "master"
@@ -960,7 +960,7 @@
     "ssh/terminal",
   ]
   pruneopts = "UT"
-  revision = "b078efbc8099b041569edb8c6ab625cd430e3fce"
+  revision = "4d3f4d9ffa16a13f451c3b2999e9c49e9750bf06"
 
 [[projects]]
   branch = "master"
@@ -985,14 +985,14 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:a5090ea95e2600b2a369df77359c5871948f12bc8f0632db0342f5acc5e30c1d"
+  digest = "1:d3e0b1b48b36298893e7667f91bce04d1b6996e5eb93b898db926cad94ce9514"
   name = "golang.org/x/sys"
   packages = [
     "unix",
     "windows",
   ]
   pruneopts = "UT"
-  revision = "d69651ed3497faee15a5363a89578e9991f6d5e2"
+  revision = "7e31e0c00fa05cb5fbf4347b585621d6709e19a4"
 
 [[projects]]
   digest = "1:4392fcf42d5cf0e3ff78c96b2acf8223d49e4fdc53eb77c99d2f8dfe4680e006"
@@ -1050,11 +1050,14 @@
     "github.com/gobuffalo/events",
     "github.com/gobuffalo/genny",
     "github.com/gobuffalo/github_flavored_markdown",
+    "github.com/gobuffalo/logger",
     "github.com/gobuffalo/mw-forcessl",
     "github.com/gobuffalo/mw-i18n",
     "github.com/gobuffalo/mw-paramlogger",
     "github.com/gobuffalo/packr",
     "github.com/gobuffalo/packr/v2",
+    "github.com/gobuffalo/packr/v2/file/resolver",
+    "github.com/gobuffalo/packr/v2/plog",
     "github.com/gobuffalo/plush",
     "github.com/gobuffalo/tags",
     "github.com/gobuffalo/x/sessions",

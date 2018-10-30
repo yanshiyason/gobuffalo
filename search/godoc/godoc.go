@@ -3,7 +3,6 @@ package godoc
 import (
 	"bytes"
 	"context"
-	"fmt"
 	"io/ioutil"
 	"net/http"
 	"sort"
@@ -111,7 +110,7 @@ func (g *GoDoc) Update(ctx context.Context) error {
 	for _, l := range Pkgs {
 		if err := g.indexGodoc(ctx, l); err != nil {
 			// it's fine if there's an error, just log it and move on
-			fmt.Println("### err ->", err)
+			// fmt.Println("### err ->", err)
 		}
 	}
 	g.moot.Lock()
@@ -139,10 +138,7 @@ func (g *GoDoc) indexGodoc(ctx context.Context, pkg string) error {
 	for _, sd := range dpkg.Subdirectories {
 		sd = pkg + "/" + sd
 		go func(sd string, ctx context.Context) {
-			err := g.indexGodoc(ctx, sd)
-			if err != nil {
-				fmt.Println(sd, err)
-			}
+			g.indexGodoc(ctx, sd)
 		}(sd, ctx)
 	}
 
