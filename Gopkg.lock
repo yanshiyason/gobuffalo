@@ -220,7 +220,7 @@
 
 [[projects]]
   branch = "development"
-  digest = "1:7e3517830b64f192a70c110eb689ba35c1a4a0f7b7ddc11e54a84f277ea93d5a"
+  digest = "1:9afcd7228178c4b85206d0a26994626a2a0f733764a4d968e37170e3a7fba6ca"
   name = "github.com/gobuffalo/buffalo"
   packages = [
     ".",
@@ -230,7 +230,7 @@
     "worker",
   ]
   pruneopts = "T"
-  revision = "77ca7d1b4e5bf4efc5e3d966c4c2fdb529131b87"
+  revision = "ce2e6a93c318a2481cc51501a11c0d7c97e0f5e8"
 
 [[projects]]
   digest = "1:119549eb308e1417c2be6bdfa485ae07446a6c595a4db3d018e603e0b524c4b9"
@@ -283,14 +283,14 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:6aeace627882a94ae41e64811815811eedb9fa9b373773d382b0a4fd2bdc28c7"
+  digest = "1:cd61eaf24bdcca192c6fe64bb0c862a99d95d3334aab6355594d451ba92b514c"
   name = "github.com/gobuffalo/genny"
   packages = [
     ".",
     "movinglater/gotools/gomods",
   ]
   pruneopts = "UT"
-  revision = "3b33d59f79ca647affe616765b399e383da481a3"
+  revision = "ed103521b8ec86e030d9776a8dad6deac56ba586"
 
 [[projects]]
   digest = "1:114fbde5ab0239bddb4e8733d3174f8f4008ff84d7161c549e501a4339bdc75c"

@@ -23,10 +23,11 @@ require (
 	github.com/facebookgo/subset v0.0.0-20150612182917-8dac2c3c4870 // indirect
 	github.com/glycerine/go-unsnap-stream v0.0.0-20180323001048-9f0cb55181dd // indirect
 	github.com/glycerine/goconvey v0.0.0-20180728074245-46e3a41ad493 // indirect
-	github.com/gobuffalo/buffalo v0.13.3-alpha.1.0.20181029182459-77ca7d1b4e5b
+	github.com/gobuffalo/buffalo v0.13.3-alpha.1.0.20181030195745-ce2e6a93c318
+	github.com/gobuffalo/buffalo-pop v1.1.8 // indirect
 	github.com/gobuffalo/envy v1.6.7
 	github.com/gobuffalo/events v1.1.5
-	github.com/gobuffalo/genny v0.0.0-20181029143252-3b33d59f79ca
+	github.com/gobuffalo/genny v0.0.0-20181030163439-ed103521b8ec
 	github.com/gobuffalo/github_flavored_markdown v1.0.7
 	github.com/gobuffalo/logger v0.0.0-20181027193913-9cf4dd0efe46
 	github.com/gobuffalo/mw-forcessl v0.0.0-20180802152810-73921ae7a130
@@ -35,7 +36,6 @@ require (
 	github.com/gobuffalo/packr v1.16.0
 	github.com/gobuffalo/packr/v2 v2.0.0-beta.15
 	github.com/gobuffalo/plush v3.7.21+incompatible
-	github.com/gobuffalo/pop v4.8.7+incompatible // indirect
 	github.com/gobuffalo/release v1.0.60 // indirect
 	github.com/gobuffalo/tags v2.0.11+incompatible
 	github.com/gobuffalo/x v0.0.0-20181025192250-1ef645d63fe8
