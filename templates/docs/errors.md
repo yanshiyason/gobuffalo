@@ -86,7 +86,7 @@ func MyHandler(c buffalo.Context) error {
 ```
 
 ```text
-GET /oops -> [422] Oh no!
+GET /oops -> [422] Oops!! There was an error Oh no!
 ```
 
 In the above example any error from your application that returns a status of `422` will be caught by the custom handler and will be dealt with accordingly.
